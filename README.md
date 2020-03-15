@@ -36,6 +36,16 @@ These are hand-holding steps for those who are unfamilar with iis.
 1. Run [install.bat](https://github.com/Leo32onGIT/forgottenserver-flash-accmaker/blob/master/flashsocketservice/install.bat) to register the **flash socket server** executable as a service.
 2. Find the newly registered service in **services.msc** and **Start** it.
 
+#### Install the account maker
+1. Add your server url to [config.php](https://github.com/Leo32onGIT/forgottenserver-flash-accmaker/blob/master/config/config.php)
+2. Add your forgottenserver directory to config.php too
+
+> $config['site']['url'] = 'http://127.0.0.1';
+
+> $config['site']['serverPath'] = "C:\GitHub\forgottenserver\";
+
+3. Browse to http://127.0.0.1 and click **Install Bootstrap ACC**)
+
 ### Installing on Linux
 I assume you already have the capability to set up a php website if you're using linux.\
 *This repository **is** just php web files.*
