@@ -89,10 +89,7 @@ elseif($page == 'menu')
 	<a href="install.php?page=step&step=2" target="step">2. Check DataBase connection</a><br>
 	<a href="install.php?page=step&step=3" target="step">3. Add tables and columns to DB</a><br>
 	<a href="install.php?page=step&step=4" target="step">4. Add samples to DB</a><br>
-	<a href="install.php?page=step&step=5" target="step">5. Set Admin Account</a><br>
-	<b>Author:</b><br>
-	Gesior<br>
-	Compatible with TFS 0.3.6 and TFS 0.4 up to revision 3702</a>';
+	<a href="install.php?page=step&step=5" target="step">5. Set Admin Account</a><br>';
 }
 elseif($page == 'step')
 {
