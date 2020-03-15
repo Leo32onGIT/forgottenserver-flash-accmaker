@@ -42,7 +42,11 @@ These are hand-holding steps for those who are unfamilar with iis.
 
 > $config['site']['url'] = 'http://127.0.0.1';
 
-> $config['site']['serverPath'] = "C:\GitHub\forgottenserver\";
+> $config['site']['serverPath'] = "C:/GitHub/forgottenserver/";
+
+or;
+
+> $config['site']['serverPath'] = "C:\\\GitHub\\\forgottenserver\\\\";    *if you use backslashes you need to escape them*
 
 3. Browse to http://127.0.0.1 and click **Install Bootstrap ACC**)
 
