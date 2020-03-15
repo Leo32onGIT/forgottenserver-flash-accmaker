@@ -32,7 +32,10 @@ These are hand-holding steps for those who are unfamilar with iis.
 
 > *i.e.* scriptProcessor="C:\Web\PHP\php-cgi.exe"
 
-#### Setup Flash Socket Service
+#### Setup the flash socket service
+If you don't want to use the included binary, download it from its original source:\
+https://archive.codeplex.com/?p=socketpolicyfile
+
 1. Run [install.bat](https://github.com/Leo32onGIT/forgottenserver-flash-accmaker/blob/master/flashsocketservice/install.bat) to register the **flash socket server** executable as a service.
 2. Find the newly registered service in **services.msc** and **Start** it.
 
