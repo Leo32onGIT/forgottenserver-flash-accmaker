@@ -1,0 +1,131 @@
+body {
+	margin: 0px;
+	padding:  0px;
+	background-color: #051122;
+}
+#BackgroundContainer {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: auto 100%;
+	background-color: #051122;
+	width: 100%;
+	height: 100%;
+}
+#FlashClientBackgroundOverlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #181E22;
+	filter: alpha(opacity=50);
+	opacity: 0.50;
+	-moz-opacity: 0.50;
+}
+.FlashClientBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-position: 0 0;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Times New Roman, sans-serif;
+}
+#FlashClientErrorBox {
+	height: 162px;
+	width: 300px;
+	margin-left: -150px;
+	margin-top: -81px;
+}
+#FlashClientDialogBox {
+	height: 310px;
+	width: 350px;
+	margin-left: -175px;
+	margin-top: -159px;
+}
+.FlashClientBoxHeadline {
+	font-weight: bold;
+	font-size: 10pt;
+	color: #C9BDAB;
+	position: absolute;
+	top: 6px;
+	left: 9px;
+	height: 15px;
+	width: 280px;
+}
+#FlashClientErrorBoxText {
+	font-size: 7pt;
+	color: #C9BDAB;
+	position: absolute;
+	top: 32px;
+	left: 9px;
+	height: 100px;
+	width: 280px;
+}
+#FlashClientErrorBoxButton {
+	font-weight: bold;
+	font-size: 8pt;
+	color: #F2AF4E;
+	position: absolute;
+	top: 139px;
+	left: 120px;
+	height: 16px;
+	width: 57px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+#FlashClientDialogBoxText {
+	font-size: 10px;
+	color: #C9BDAB;
+	position: absolute;
+	top: 32px;
+	left: 3px;
+	height: 246px;
+	width: 343px;
+	overflow-y: auto;
+}
+.FlashClientDialogBoxButton {
+	font-weight: bold;
+	font-size: 8pt;
+	color: #F2AF4E;
+	position: absolute;
+	top: 287px;
+	height: 16px;
+	width: 58px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+#FlashClientDialogBoxButton_1 {
+	left: 100px;
+}
+#FlashClientDialogBoxButton_2 {
+	right: 100px;
+}
+.CharacterListEntry {
+	display: block;
+	height: 15px;
+	padding-bottom: 8px;
+	margin-left: -16px;
+}
+.CharacterListEntry input {
+	visibility: hidden;
+}
+.CharacterListSelectedEntry {
+	background-color: #3F474D;
+}
+.CharacterListEntry:hover {
+	background-color: #32373A;
+}
+#FlashClientDialogBox a {
+	text-decoration: none;
+	color: #C9BDAB;
+}
+#FlashClientDialogBox a:hover {
+	text-decoration: none;
+	color: #C9BDAB;
+}
+#placeholder2 {
+	display: none;
+	visibility: hidden;
+}

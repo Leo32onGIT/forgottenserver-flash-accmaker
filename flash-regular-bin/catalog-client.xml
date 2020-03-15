@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+	<binary>
+		<size>2914553</size>
+		<url>flash-regular-bin/tibia.swf</url>
+	</binary>
+	
+	<defaultOptions>
+		<size>59570</size>
+		<url>flash-regular-bin/default-options.xml</url>
+	</defaultOptions>
+	
+	<currentOptions>
+		<url>/index.php?view=client_options_serverscript</url>
+	</currentOptions>
+</catalog>

@@ -1,0 +1,36 @@
+/* RESET */
+
+ul {
+    list-style: none;
+}
+
+.registration {
+    background-color: #fff;
+    /*margin: 0 auto;*/
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #ffdb3a;
+}
+
+.input-requirements {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: left;
+    list-style: disc;
+    list-style-position: inside;
+    color: rgb(150, 150, 150);
+}
+
+.input-requirements li.invalid {
+    color: #e74c3c;
+}
+
+.input-requirements li.valid {
+    color: #2ecc71;
+}
+
+.input-requirements li.valid:after {
+    display: inline-block;
+    content: "\2713";
+    margin-left: 10px;
+}

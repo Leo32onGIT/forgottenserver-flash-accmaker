@@ -1,0 +1,1 @@
+sc.exe create "Flash Socket Service" binPath= "%CD%\SocketPolicyFileServerService.exe"

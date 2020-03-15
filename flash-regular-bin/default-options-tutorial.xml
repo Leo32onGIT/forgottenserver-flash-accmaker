@@ -1,0 +1,372 @@
+<options version="5">
+  <general>
+    <actionBarsLock>false</actionBarsLock>
+    <inputSetID>0</inputSetID>
+    <inputSetMode>1</inputSetMode>
+    <uiGameWindowHeight>75</uiGameWindowHeight>
+    <uiChatLeftViewWidth>100</uiChatLeftViewWidth>
+  </general>
+  <renderer>
+    <lightEnabled>false</lightEnabled>
+    <ambientBrightness>0.4</ambientBrightness>
+    <highlight>0.75</highlight>
+    <levelSeparator>0.7</levelSeparator>
+    <scaleMap>true</scaleMap>
+    <antialiasing>true</antialiasing>
+    <maxFrameRate>60</maxFrameRate>
+    <showFrameRate>false</showFrameRate>
+  </renderer>
+  <combat>
+    <attackMode>2</attackMode>
+    <chaseMode>1</chaseMode>
+    <autoChaseOff>true</autoChaseOff>
+    <secureMode>1</secureMode>
+  </combat>
+  <status>
+    <widgetLocation>0</widgetLocation>
+    <widgetSkill>1</widgetSkill>
+    <widgetStyle>2</widgetStyle>
+    <widgetVisible>true</widgetVisible>
+    <playerStyle>1</playerStyle>
+    <playerName>true</playerName>
+    <playerHealth>true</playerHealth>
+    <playerMana>true</playerMana>
+    <playerFlags>true</playerFlags>
+    <creatureStyle>1</creatureStyle>
+    <creatureName>true</creatureName>
+    <creatureHealth>true</creatureHealth>
+    <creatureFlags>true</creatureFlags>
+    <creatureIcons>true</creatureIcons>
+    <creaturePvpFrames>true</creaturePvpFrames>
+  </status>
+  <npctrade>
+    <buyIgnoreCapacity>false</buyIgnoreCapacity>
+    <buyWithBackpacks>false</buyWithBackpacks>
+    <sellKeepEquipped>true</sellKeepEquipped>
+    <sort>0</sort>
+    <layout>0</layout>
+  </npctrade>
+  <opponent>
+    <sort>0</sort>
+    <filter>0</filter>
+  </opponent>
+  <help>
+    <knownTutorialHints/>
+  </help>
+  <sidebarset id="0" defaultLocation="1,0,0,0,0,1,1,0,0,1">
+    <widgetset>
+      <widget id="0" type="3" collapsed="false"/>
+      <widget id="1" type="5" collapsed="false" zoom="2"/>
+      <widget id="2" type="0" collapsed="false" height="285"/>
+      <widget id="3" type="1" collapsed="false"/>
+      <widget id="4" type="6" collapsed="false"/>
+      <widget id="5" type="4" collapsed="false"/>
+    </widgetset>
+    <sidebar foldHeader="false" location="0" visible="true">
+      <widgetref id="5"/>
+    </sidebar>
+    <sidebar foldHeader="false" location="1" visible="true">
+      <widgetref id="1"/>
+      <widgetref id="4"/>
+      <widgetref id="2"/>
+    </sidebar>
+    <sidebar foldHeader="false" location="2" visible="false"/>
+    <sidebar foldHeader="false" location="3" visible="false"/>
+  </sidebarset>
+  <actionbarset id="0">
+    <actionbar visible="false" location="0"/>
+    <actionbar visible="true" location="1">
+      <action type="talk" autoSend="true" text="Hi" index="0"/>
+      <action type="talk" autoSend="true" text="Yes" index="1"/>
+      <action type="use" object="3003" data="0" target="4" index="2"/>
+      <action type="use" object="3457" data="0" target="4" index="3"/>
+      <action type="use" object="3577" data="0" target="2" index="4"/>
+    </actionbar>
+    <actionbar visible="false" location="2"/>
+    <actionbar visible="false" location="3"/>
+  </actionbarset>
+  <mappingset id="0" name="Set 1">
+    <mapping mode="0">
+      <binding keyCode="81" modifierCode="17" charCode="81">
+        <action type="static" object="11"/>
+      </binding>
+      <binding keyCode="70" modifierCode="17" charCode="70">
+        <action type="static" object="12"/>
+      </binding>
+      <binding keyCode="85" modifierCode="17" charCode="117" text="">
+        <action type="static" object="22"/>
+      </binding>
+      <binding keyCode="89" modifierCode="17" charCode="121" text="">
+        <action type="static" object="9"/>
+      </binding>
+      <binding keyCode="90" modifierCode="17" charCode="90">
+        <action type="static" object="4"/>
+      </binding>
+      <binding keyCode="75" modifierCode="17" charCode="75">
+        <action type="static" object="5"/>
+      </binding>
+      <binding keyCode="77" modifierCode="17" charCode="77">
+        <action type="static" object="525"/>
+      </binding>
+      <binding keyCode="27" modifierCode="0">
+        <action type="static" object="524"/>
+      </binding>
+      <binding keyCode="13" modifierCode="17">
+        <action type="static" object="1"/>
+      </binding>
+      <binding keyCode="37" modifierCode="16">
+        <action type="static" object="257"/>
+      </binding>
+      <binding keyCode="39" modifierCode="16">
+        <action type="static" object="258"/>
+      </binding>
+      <binding keyCode="38" modifierCode="16">
+        <action type="static" object="267"/>
+      </binding>
+      <binding keyCode="40" modifierCode="16">
+        <action type="static" object="268"/>
+      </binding>
+      <binding keyCode="38" modifierCode="0">
+        <action type="static" object="514"/>
+      </binding>
+      <binding keyCode="104" modifierCode="0">
+        <action type="static" object="514"/>
+      </binding>
+      <binding keyCode="37" modifierCode="0">
+        <action type="static" object="516"/>
+      </binding>
+      <binding keyCode="100" modifierCode="0">
+        <action type="static" object="516"/>
+      </binding>
+      <binding keyCode="39" modifierCode="0">
+        <action type="static" object="512"/>
+      </binding>
+      <binding keyCode="102" modifierCode="0">
+        <action type="static" object="512"/>
+      </binding>
+      <binding keyCode="40" modifierCode="0">
+        <action type="static" object="518"/>
+      </binding>
+      <binding keyCode="98" modifierCode="0">
+        <action type="static" object="518"/>
+      </binding>
+      <binding keyCode="103" modifierCode="0">
+        <action type="static" object="515"/>
+      </binding>
+      <binding keyCode="97" modifierCode="0">
+        <action type="static" object="517"/>
+      </binding>
+      <binding keyCode="105" modifierCode="0">
+        <action type="static" object="513"/>
+      </binding>
+      <binding keyCode="99" modifierCode="0">
+        <action type="static" object="519"/>
+      </binding>
+      <binding keyCode="38" modifierCode="17">
+        <action type="static" object="521"/>
+      </binding>
+      <binding keyCode="37" modifierCode="17">
+        <action type="static" object="522"/>
+      </binding>
+      <binding keyCode="39" modifierCode="17">
+        <action type="static" object="520"/>
+      </binding>
+      <binding keyCode="40" modifierCode="17">
+        <action type="static" object="523"/>
+      </binding>
+      <binding keyCode="84" modifierCode="17" charCode="116" text="">
+        <action type="static" object="35"/>
+      </binding>
+    </mapping>
+    <mapping mode="1">
+      <binding keyCode="81" modifierCode="17" charCode="81">
+        <action type="static" object="11"/>
+      </binding>
+      <binding keyCode="70" modifierCode="17" charCode="70">
+        <action type="static" object="12"/>
+      </binding>
+      <binding keyCode="85" modifierCode="17" charCode="117" text="">
+        <action type="static" object="22"/>
+      </binding>
+      <binding keyCode="89" modifierCode="17" charCode="121" text="">
+        <action type="static" object="9"/>
+      </binding>
+      <binding keyCode="90" modifierCode="17" charCode="90">
+        <action type="static" object="4"/>
+      </binding>
+      <binding keyCode="75" modifierCode="17" charCode="75">
+        <action type="static" object="5"/>
+      </binding>
+      <binding keyCode="77" modifierCode="17" charCode="77">
+        <action type="static" object="525"/>
+      </binding>
+      <binding keyCode="27" modifierCode="0">
+        <action type="static" object="524"/>
+      </binding>
+      <binding keyCode="32" modifierCode="0" charCode="32" text=" ">
+        <action type="static" object="15"/>
+      </binding>
+      <binding keyCode="32" modifierCode="17" charCode="32" text="">
+        <action type="static" object="16"/>
+      </binding>
+      <binding keyCode="13" modifierCode="17">
+        <action type="static" object="1"/>
+      </binding>
+      <binding keyCode="38" modifierCode="0">
+        <action type="static" object="514"/>
+      </binding>
+      <binding keyCode="87" modifierCode="0" charCode="119" text="w">
+        <action type="static" object="514"/>
+      </binding>
+      <binding keyCode="37" modifierCode="0">
+        <action type="static" object="516"/>
+      </binding>
+      <binding keyCode="65" modifierCode="0" charCode="97" text="a">
+        <action type="static" object="516"/>
+      </binding>
+      <binding keyCode="39" modifierCode="0">
+        <action type="static" object="512"/>
+      </binding>
+      <binding keyCode="68" modifierCode="0" charCode="100" text="d">
+        <action type="static" object="512"/>
+      </binding>
+      <binding keyCode="40" modifierCode="0">
+        <action type="static" object="518"/>
+      </binding>
+      <binding keyCode="83" modifierCode="0" charCode="115" text="s">
+        <action type="static" object="518"/>
+      </binding>
+      <binding keyCode="103" modifierCode="0">
+        <action type="static" object="515"/>
+      </binding>
+      <binding keyCode="81" modifierCode="0" charCode="113" text="q">
+        <action type="static" object="515"/>
+      </binding>
+      <binding keyCode="97" modifierCode="0">
+        <action type="static" object="517"/>
+      </binding>
+      <binding keyCode="89" modifierCode="0" charCode="121" text="y">
+        <action type="static" object="517"/>
+      </binding>
+      <binding keyCode="105" modifierCode="0">
+        <action type="static" object="513"/>
+      </binding>
+      <binding keyCode="69" modifierCode="0" charCode="101" text="e">
+        <action type="static" object="513"/>
+      </binding>
+      <binding keyCode="99" modifierCode="0">
+        <action type="static" object="519"/>
+      </binding>
+      <binding keyCode="67" modifierCode="0" charCode="99" text="c">
+        <action type="static" object="519"/>
+      </binding>
+      <binding keyCode="38" modifierCode="17">
+        <action type="static" object="521"/>
+      </binding>
+      <binding keyCode="87" modifierCode="16" charCode="87" text="W">
+        <action type="static" object="521"/>
+      </binding>
+      <binding keyCode="37" modifierCode="17">
+        <action type="static" object="522"/>
+      </binding>
+      <binding keyCode="65" modifierCode="16" charCode="65" text="A">
+        <action type="static" object="522"/>
+      </binding>
+      <binding keyCode="39" modifierCode="17">
+        <action type="static" object="520"/>
+      </binding>
+      <binding keyCode="68" modifierCode="16" charCode="68" text="D">
+        <action type="static" object="520"/>
+      </binding>
+      <binding keyCode="40" modifierCode="17">
+        <action type="static" object="523"/>
+      </binding>
+      <binding keyCode="83" modifierCode="16" charCode="83" text="S">
+        <action type="static" object="523"/>
+      </binding>
+      <binding keyCode="84" modifierCode="17" charCode="116" text="">
+        <action type="static" object="35"/>
+      </binding>
+      <binding keyCode="49" modifierCode="0" charCode="49" text="1">
+        <action type="static" object="1024"/>
+      </binding>
+      <binding keyCode="50" modifierCode="0" charCode="50" text="2">
+        <action type="static" object="1025"/>
+      </binding>
+      <binding keyCode="51" modifierCode="0" charCode="51" text="3">
+        <action type="static" object="1026"/>
+      </binding>
+      <binding keyCode="52" modifierCode="0" charCode="52" text="4">
+        <action type="static" object="1027"/>
+      </binding>
+      <binding keyCode="53" modifierCode="0" charCode="53" text="5">
+        <action type="static" object="1028"/>
+      </binding>
+      <binding keyCode="54" modifierCode="0" charCode="54" text="6">
+        <action type="static" object="1029"/>
+      </binding>
+      <binding keyCode="55" modifierCode="0" charCode="55" text="7">
+        <action type="static" object="1030"/>
+      </binding>
+      <binding keyCode="56" modifierCode="0" charCode="56" text="8">
+        <action type="static" object="1031"/>
+      </binding>
+      <binding keyCode="57" modifierCode="0" charCode="57" text="9">
+        <action type="static" object="1032"/>
+      </binding>
+      <binding keyCode="48" modifierCode="0" charCode="48" text="0">
+        <action type="static" object="1033"/>
+      </binding>
+    </mapping>
+  </mappingset>
+  <mousemapping showMouseCursorForAction="true">
+    <mousebinding mouseButton="1" modifierCode="0" action="100"/>
+  </mousemapping>
+  <messagefilterset id="0">
+    <showtimestamps>true</showtimestamps>
+    <showlevels>true</showlevels>
+    <messagemodes>
+      <messagemode id="4" gamewindow="true" channel="true" textcolour="6"/>
+      <messagemode id="9" gamewindow="true" channel="false" textcolour="8"/>
+      <messagemode id="18" gamewindow="true" channel="true" textcolour="11"/>
+      <messagemode id="20" gamewindow="true" channel="true" textcolour="0"/>
+      <messagemode id="21" gamewindow="true" channel="true" textcolour="3"/>
+      <messagemode id="22" gamewindow="true" channel="false" textcolour="11"/>
+      <messagemode id="23" gamewindow="true" channel="false" textcolour="0"/>
+      <messagemode id="24" gamewindow="true" channel="true" textcolour="5"/>
+      <messagemode id="25" gamewindow="true" channel="true" textcolour="11"/>
+      <messagemode id="26" gamewindow="true" channel="false" textcolour="1"/>
+      <messagemode id="27" gamewindow="true" channel="false" textcolour="5"/>
+      <messagemode id="28" gamewindow="true" channel="false" textcolour="11"/>
+      <messagemode id="29" gamewindow="true" channel="true" textcolour="11"/>
+      <messagemode id="30" gamewindow="true" channel="true" textcolour="3"/>
+      <messagemode id="31" gamewindow="true" channel="true" textcolour="3"/>
+      <messagemode id="38" gamewindow="true" channel="true" textcolour="3"/>
+    </messagemodes>
+  </messagefilterset>
+  <channelset id="0">
+    <channel>7</channel>
+    <channel>4</channel>
+  </channelset>
+  <namefilterset id="0">
+    <blacklistEnabled>true</blacklistEnabled>
+    <blacklistPrivate>false</blacklistPrivate>
+    <blacklistYelling>false</blacklistYelling>
+    <whitelistEnabled>true</whitelistEnabled>
+    <whitelistBuddies>false</whitelistBuddies>
+    <blacklistItems/>
+    <whitelistItems/>
+  </namefilterset>
+  <market>
+    <browserLayout>1</browserLayout>
+    <browserEditor>0</browserEditor>
+    <browserDepot>false</browserDepot>
+    <browserCategory>2</browserCategory>
+    <browserLevel>false</browserLevel>
+    <browserProfession>false</browserProfession>
+    <browserBodyPosition>-1</browserBodyPosition>
+    <browserName/>
+    <selectedView>0</selectedView>
+    <selectedType>0</selectedType>
+  </market>
+</options>

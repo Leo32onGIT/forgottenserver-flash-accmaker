@@ -1,0 +1,255 @@
+{
+  "actions": {
+    "0": [
+      {
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "TutorialStart"
+      },
+      {
+        "type": "SKIP_TO",
+        "skiptotimestamp": 1000
+      }
+    ],
+    "1359": [
+      {
+        "type": "SWITCH_CHANNEL",
+        "channelid": 131070
+      }
+      ,{
+        "type": "CONDITION", 
+        "conditiontype": "AUTOWALK", 
+        "conditiondata": {
+          "coordinate": {
+            "x": 32058, 
+            "y": 31848, 
+            "z": 13
+          }
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "ClickToWalk"
+      }
+
+    ], 
+    "8058": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "MOVE", 
+        "conditiondata": {
+          "destination": {
+            "x": 65535, 
+            "y": 6, 
+            "z": 0
+          }, 
+          "objecttypeid": 3267, 
+          "amount": -2, 
+          "source": {
+            "x": 32063, 
+            "y": 31849, 
+            "z": 13
+          }
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "TakeWeapon"
+      }
+
+    ], 
+    "10659": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "ATTACK", 
+        "conditiondata": {
+          "creaturename": "Wounded Cave Draptor"
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "AttackMonster"
+      }
+    ], 
+    "27908": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "USE", 
+        "conditiondata": {
+          "position": 4, 
+          "coordinate": {
+            "x": 32079, 
+            "y": 31844, 
+            "z": 13
+          }, 
+          "usetypeid": 20338, 
+          "target": 0
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "OpenMonster"
+      }
+    ], 
+    "29007": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "USE", 
+        "conditiondata": {
+          "position": 0, 
+          "coordinate": {
+            "x": 65535, 
+            "y": 3, 
+            "z": 0
+          }, 
+          "usetypeid": 2854, 
+          "target": 0
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "OpenContainer"
+      }
+    ], 
+    "30007": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "MOVE", 
+        "conditiondata": {
+          "destination": {
+            "x": 65535, 
+            "y": 65, 
+            "z": 0
+          }, 
+          "objecttypeid": 3031, 
+          "amount": -2, 
+          "source": {
+            "x": 65535, 
+            "y": 64, 
+            "z": 0
+          }
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "LootMonster"
+      }
+    ], 
+    "30757": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "GREET", 
+        "conditiondata": {
+          "creaturename": "Menesto"
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "GreetNPC"
+      }
+    ], 
+    "33107": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "USE", 
+        "conditiondata": {
+          "position": 0, 
+          "coordinate": {
+            "x": 65535, 
+            "y": 65, 
+            "z": 0
+          }, 
+          "usetypeid": 3577, 
+          "target": 0
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "Eat"
+      }
+    ], 
+    "34058": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "TALK", 
+        "conditiondata": {
+          "text": "ready"
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "TalkWithKeyword"
+      }
+    ], 
+    "34059": [
+      {
+        "type": "SKIP_TO",
+        "skiptotimestamp": 35558
+      }
+    ],
+    "35558": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "USE", 
+        "conditiondata": {
+          "position": 5, 
+          "coordinate": {
+            "x": 32080, 
+            "y": 31843, 
+            "z": 13
+          }, 
+          "usetypeid": 9116, 
+          "target": 0
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "UseLadder"
+      }
+    ],
+    "37000": [
+      {
+        "type": "SKIP_TO",
+        "skiptotimestamp": 39058
+      }
+    ],
+    "39058": [
+      {
+        "type": "CONDITION", 
+        "conditiontype": "USE", 
+        "conditiondata": {
+          "multiusetarget": {
+            "x": 32080, 
+            "y": 31838, 
+            "z": 11
+          }, 
+          "multiuseobjectid": 21501, 
+          "usetypeid": 3003, 
+          "target": 0, 
+          "position": 0, 
+          "multiuseobjectposition": 0, 
+          "coordinate": {
+            "x": 65535, 
+            "y": 65, 
+            "z": 0
+          }
+        }
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "UseRopespot"
+      }
+      ,{
+        "type": "TUTORIAL_PROGRESS",
+        "tutorialprogress": "TutorialEnd"
+      }
+    ],
+    "40510": [
+      {
+        "type": "SKIP_TO",
+        "skiptotimestamp": 42609
+      }
+    ]
+  }, 
+  "sessiondump": "tutorial-sessiondump.dmp", 
+  "sessiondump-duration": 42609
+}

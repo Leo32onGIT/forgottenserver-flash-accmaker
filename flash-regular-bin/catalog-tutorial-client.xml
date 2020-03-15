@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+	<binary>
+		<size>2914553</size>
+		<url>flash-regular-bin/tibia.swf</url>
+	</binary>
+	
+	<defaultOptions>
+		<size>59570</size>
+		<url>flash-regular-bin/default-options.xml</url>
+	</defaultOptions>
+	
+	<defaultOptionsTutorial>
+		<size>14978</size>
+		<url>flash-regular-bin/default-options-tutorial.xml</url>
+	</defaultOptionsTutorial>
+	
+	<tutorialSessiondump>
+		<size>60343</size>
+		<url>flash-regular-bin/common/tutorial-sessiondump.dmp</url>
+	</tutorialSessiondump>
+	
+	<tutorialSessiondumpHints>
+		<size>5479</size>
+		<url>flash-regular-bin/common/tutorial-sessiondump.hints</url>
+	</tutorialSessiondumpHints>
+	
+	<tutorialProgressService>
+		<url>flash-regular-bin/common/tutorial_progress_serverscript.php</url>
+	</tutorialProgressService>
+	
+	<currentOptions>
+		<url>flash-regular-bin/common/client_options_serverscript.php</url>
+	</currentOptions>
+</catalog>
