@@ -8,9 +8,17 @@ https://github.com/gesior/Gesior2012/
 Having a client **as a browser tab** is highly valuable to me, so I use it as my development environment.
 
 
+## Why?
+I use it with [this branch](https://github.com/Leo32onGIT/forgottenserver/tree/10.79-test-env) as a testing/development environment.\
+Its value lies in *quickly launching a tibia client*.
+
+
 ## Components
 - PHP web files
 - Socket file policy service ([original source](https://github.com/Leo32onGIT/forgottenserver-flash-accmaker))
+
+
+## Installation
 
 ### Installing on Windows (IIS)
 These are hand-holding steps for those who are unfamilar with iis.
