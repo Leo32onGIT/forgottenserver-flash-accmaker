@@ -906,7 +906,7 @@ else
 			    $char_to_copy->setSex($newchar_sex);
 				$char_to_copy->setVocation($newchar_vocation);
 				$char_to_copy->setLevel(100);
-			    $char_to_copy->setTown(2);
+			    $char_to_copy->setTown(1);
 				$char_to_copy->setPosX(0);
 				$char_to_copy->setPosY(0);
 				$char_to_copy->setPosZ(0);
